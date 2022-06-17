@@ -1,0 +1,28 @@
+{
+  "name": "rmv-appointment-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RMV Boston Road Test Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehtajinesh/RMV-Appointment-Tracker.git"
+  },
+  "author": "Jinesh Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehtajinesh/RMV-Appointment-Tracker/issues"
+  },
+  "homepage": "https://github.com/mehtajinesh/RMV-Appointment-Tracker#readme",
+  "dependencies": {
+    "captcha-solver": "^0.0.6",
+    "ndb": "^1.1.5",
+    "puppeteer": "^14.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "python-shell": "^3.0.1"
+  }
+}
