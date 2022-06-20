@@ -36,14 +36,7 @@ async function scrapePageContent() {
   try {
     console.log("Opening browser...");
     const browser = await puppeteer.launch({
-      headless: false,
-      executablePath:
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-      args: [
-        "--remote-debugging-port=9222",
-        "--user-data-dir=./temp",
-        "--no-sandbox",
-      ],
+      headless: true,
     });
     console.log("Opening new tab...");
     // open a new page
