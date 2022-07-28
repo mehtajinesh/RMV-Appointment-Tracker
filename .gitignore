@@ -104,8 +104,10 @@ dist
 .tern-port
 
 # Config
-config.js
+config.json
 package-lock.json
+.vscode
+output.txt
 
 #temp
 temp
